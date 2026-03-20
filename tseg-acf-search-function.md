@@ -26,7 +26,6 @@ Search, add, or remove posts in **ACF Relationship** and **Post Object** fields 
     
     ```
     require_once get_stylesheet_directory() . '/inc/tseg-functions.php';
-    
     ```
     
 
