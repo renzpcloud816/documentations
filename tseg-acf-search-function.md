@@ -15,7 +15,7 @@ Search, add, or remove posts in **ACF Relationship** and **Post Object** fields 
     
     -   Create a file named `tseg-functions.php` inside that folder.
         
-    -   Paste the provided utility code into this file.
+    -   Paste this code [https://github.com/renzpcloud816/documentations/blob/main/tseg-functions.php](https://github.com/renzpcloud816/documentations/blob/main/tseg-functions.php)
         
 3.  **Register in Functions.php:**
     
