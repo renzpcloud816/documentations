@@ -32,7 +32,7 @@
 
 ---
 
-## After Migration
+## Post-Migration, Verification & Testing
 
 1. **Verify** that important root directory files have been copied over.
 2. **Ensure crawlers are disallowed** in `robots.txt` for DEV sites.
@@ -48,7 +48,7 @@
 
 ---
 
-## After Main Domain Switch
+## Live Site Verification (Live Domain)
 
 1. **Restore `robots.txt`** to its original state.
 2. **Verify forms on the live domain** (Notifications, reCaptcha, and Airtable sync).
