@@ -5,9 +5,10 @@
 1. Crawl the original site and document all URLs.
 2. Identify and list all subdomains.
 3. Audit the root directory (`public_html`) for important files, such as:
-    - Custom configurations
-    - Verification files
-    - `.htaccess` files
+    - config / verification files and
+    - Subdomain directories or folders containing files like PDFs
+    - `.htaccess` with redirects
+    - robots.txt, llms.txt, favicons
 4. Identify large `error_logs` to exclude during migration.
 
 ## Migration
