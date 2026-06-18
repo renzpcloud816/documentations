@@ -1,6 +1,6 @@
 # Site Migration to WP Engine
 
-## Preparations
+## 📋 Preparations
 
 1. **Crawl the original site** and document all URLs.
 2. **Identify and list** all subdomains.
@@ -14,7 +14,7 @@
 
 ---
 
-## Migration
+## 🚀 Migration
 
 1. **Create a site in [WP Engine](https://my.wpengine.com/sites).**
     - Add Site > Migrate a site > Use our migration plugin.
@@ -32,7 +32,7 @@
 
 ---
 
-## Post-Migration, Verification & Testing
+## 🔍 Post-Migration, Verification & Testing
 
 1. **Verify** that important root directory files have been copied over.
 2. **Ensure crawlers are disallowed** in `robots.txt` for DEV sites.
@@ -48,7 +48,7 @@
 
 ---
 
-## Live Site Verification (Live Domain)
+## 🌐 Live Site Verification (Live Domain) [IGNORE FOR NOW]
 
 1. **Restore `robots.txt`** to its original state.
 2. **Verify forms on the live domain** (Notifications, reCaptcha, and Airtable sync).
@@ -57,6 +57,6 @@
 
 ---
 
-## Others
+## 🧹 Others
 
 1. **Remove the Site Migration plugin** if it is no longer needed.
