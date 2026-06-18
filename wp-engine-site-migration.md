@@ -25,7 +25,7 @@
 3. **Copy the "Connection info"** from the WP Engine dashboard and paste it into the origin site plugin.
     - <img width="547" height="550" alt="image" src="https://github.com/user-attachments/assets/49a258cd-88c0-4433-9169-6d1a04863668" />
 4. **Select default or custom migration:**
-    - > ⚠️ **NOTE:** For default migration, the migration tool will exclude all non-wp files from the root directory.
+    - ⚠️ **NOTE:** For default migration, the migration tool will exclude all non-wp files from the root directory.
     - For custom migrations, select important files from the Root Files that need to be migrated (e.g., `llms.txt`, subdirectories, or favicons). Exclude large `error_logs` files.
     - Start the migration and wait for the notification.
     - <img width="547" height="693" alt="image" src="https://github.com/user-attachments/assets/40338156-101a-4736-8baa-88890689b9ab" />
