@@ -39,7 +39,7 @@
 3. **Move and verify `.htaccess` redirects:**
     - If the site has hardcoded redirects, please import them to the Redirection plugin under the 'htaccess' group.
     - If the site uses Yoast redirects, switch the redirect method to PHP.
-    - <img width="498" height="366" alt="image" src="https://github.com/user-attachments/assets/782f9023-aa19-4bcf-97df-e09ef516df71" />
+    - <img width="249" height="183" alt="image" src="https://github.com/user-attachments/assets/782f9023-aa19-4bcf-97df-e09ef516df71" />
 4. **Verify all forms are working:** check Notifications, reCaptcha, and Airtable sync. 
 5. **Check that referrer tracking is working** via JS Session Storage.
     - Follow this guideline or reach out to Arjay: [Referrer Tracking: Migration from PHP Cookies to JS Session Storage](https://github.com/c816/tech-team/wiki/Referrer-Tracking:-Migration-from-PHP-Cookies-to-JS-Session-Storage)
