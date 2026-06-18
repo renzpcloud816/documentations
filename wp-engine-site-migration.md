@@ -15,17 +15,18 @@
 
 1. Create a site in [WP Engine](https://my.wpengine.com/sites).
     - Add Site > Migrate a site > Use our migration plugin.
-    - Enter site details.
+    - Enter site details and click "Add site"
     - <img width="355" height="378" alt="migration-process" src="https://github.com/user-attachments/assets/434c7d4f-1df1-4896-9bb3-12330e3c0b7e" />    
-2. Go to the origin site and install the "Site Migration" plugin.
+2. The process will take a couple of minutes and then redirect you to the migration page. Once there, follow the instructions shown in the screenshot.
+    - <img width="739" height="476" alt="image" src="https://github.com/user-attachments/assets/534688bd-a689-4ade-9aa2-4410994ffdae" />
 3. Copy the "Connection info" from the WP Engine dashboard and paste it into the origin site plugin.
+    - <img width="547" height="550" alt="image" src="https://github.com/user-attachments/assets/49a258cd-88c0-4433-9169-6d1a04863668" />
 4. Select default or custom migration:
     - Exclude large `error_logs`.
     - For custom migrations, select important files from the Root Files that need to be migrated (e.g., `llms.txt`, favicons).
     - Start the migration and wait for the notification.
-5. Ensure all subdomains are migrated.
-6. Verify that important root directory files have been copied over.
-7. Confirm that large `error_log` files have been successfully excluded.
+    - <img width="547" height="693" alt="image" src="https://github.com/user-attachments/assets/40338156-101a-4736-8baa-88890689b9ab" />
+5. Verify that important root directory files have been copied over.
 
 ## After Migration
 
