@@ -22,21 +22,24 @@
 3. Copy the "Connection info" from the WP Engine dashboard and paste it into the origin site plugin.
     - <img width="547" height="550" alt="image" src="https://github.com/user-attachments/assets/49a258cd-88c0-4433-9169-6d1a04863668" />
 4. Select default or custom migration:
-    - Exclude large `error_logs`.
-    - For custom migrations, select important files from the Root Files that need to be migrated (e.g., `llms.txt`, favicons).
+    - For custom migrations, select important files from the Root Files that need to be migrated (e.g., `llms.txt`, subdirectories, or favicons). Exclude large `error_logs` files.
     - Start the migration and wait for the notification.
     - <img width="547" height="693" alt="image" src="https://github.com/user-attachments/assets/40338156-101a-4736-8baa-88890689b9ab" />
-5. Verify that important root directory files have been copied over.
+5. Start the migration and wait for the notification.
 
 ## After Migration
 
-1. Ensure crawlers are disallowed in `robots.txt` for development sites.
-2. Move and verify `.htaccess` redirects (if using Yoast redirects, switch to PHP).
-3. Verify all forms are working: check Notifications, reCaptcha, and Airtable sync. 
-    - *Note: reCaptcha might need the dev URL added.*
-4. Check that referrer tracking is working via JS Session Storage.
-5. Check and resolve all old URLs.
-6. Check all templates for errors, style issues, and console logs.
+1. Verify that important root directory files have been copied over.
+2. Ensure crawlers are disallowed in `robots.txt` for DEV sites.
+3. Move and verify `.htaccess` redirects
+    - If the site has hardcoded redirects, please import them to the Redirection plugin under the 'htaccess' group
+    - If the site uses Yoast redirects, switch the redirect method PHP.
+    - <img width="498" height="366" alt="image" src="https://github.com/user-attachments/assets/782f9023-aa19-4bcf-97df-e09ef516df71" />
+4. Verify all forms are working: check Notifications, reCaptcha, and Airtable sync. 
+5. Check that referrer tracking is working via JS Session Storage.
+    - Follow this guideline or reach out to Arjay [Referrer Tracking: Migration from PHP Cookies to JS Session Storage](https://github.com/c816/tech-team/wiki/Referrer-Tracking:-Migration-from-PHP-Cookies-to-JS-Session-Storage)
+6. Check and resolve all old URLs.
+7. Check all templates for style issues and errors (error_logs and console logs).
 
 ## After Main Domain Switch
 
