@@ -16,7 +16,7 @@
 1. Create a site in [WP Engine](https://my.wpengine.com/sites).
     - Add Site > Migrate a site > Use our migration plugin.
     - Enter site details.
-    - <img width="710" height="756" alt="migration-process" src="https://github.com/user-attachments/assets/d1f5997c-31f8-4bdd-b35b-866fd10e7286" />
+    - <img width="355" height="378" alt="migration-process" src="https://github.com/user-attachments/assets/434c7d4f-1df1-4896-9bb3-12330e3c0b7e" />    
 2. Go to the origin site and install the "Site Migration" plugin.
 3. Copy the "Connection info" from the WP Engine dashboard and paste it into the origin site plugin.
 4. Select default or custom migration:
