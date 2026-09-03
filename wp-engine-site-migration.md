@@ -10,7 +10,7 @@
     - `.htaccess` with redirects
     - `robots.txt`, `llms.txt`, favicons
 4. **Identify large `error_logs`** to exclude during migration.
-5. **Create a copy of the checklist sheet**, and cross items along the way: [WP Engine Migration Checklist](https://docs.google.com/spreadsheets/d/1mJu9Q8GC0tc43R82tgEgKeV_NR9LI7G_LQoNtvCHZm4/edit?usp=sharing)
+5. **Create a copy of the checklist sheet**, and cross items along the way: [WP Engine Migration Checklist](https://docs.google.com/spreadsheets/d/1Sft-OJBDHVz9IAixK4EofYe8yWIyj9Rqau_elykY3W0/edit?usp=sharing)
 
 ---
 
